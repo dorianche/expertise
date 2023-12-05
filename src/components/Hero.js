@@ -4,7 +4,7 @@ import house from "../images/house.webp";
 const Hero = () => {
   return (
     <section class="bg-white mt-20">
-      <div class=" grid max-w-screen-xl grid-cols-2 place-items-between gap-48 items-between">
+      <div class=" grid max-w-screen-xl grid-cols-2 place-items-between gap-48 items-between justify-around">
         <div class=" place-self-center">
           <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
             Votre expert bâtiment certifié
