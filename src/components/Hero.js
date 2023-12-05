@@ -3,8 +3,8 @@ import house from "../images/house.webp";
 
 const Hero = () => {
   return (
-    <section class="bg-white mt-20">
-      <div class=" grid max-w-screen-xl grid-cols-2 place-items-between gap-48 items-between justify-around">
+    <section class="bg-white mt-40 lg:mt-20 ">
+      <div class="flex justify-between gap-10 flex-col lg:flex-row sm:flex-col xs:flex-col max-w-screen-xl px-10">
         <div class=" place-self-center">
           <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
             Votre expert bâtiment certifié
@@ -15,7 +15,7 @@ const Hero = () => {
           </p>
           <a
             href="#"
-            class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 "
+            class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-primary-300 "
           >
             En savoir plus
             <svg
@@ -33,12 +33,12 @@ const Hero = () => {
           </a>
           <a
             href="#"
-            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100   "
+            class="inline-flex px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100   "
           >
             Nous contacter
           </a>
         </div>
-        <div class=" lg:mt-0  ">
+        <div class=" lg:mt-0 lg:w-1/2 place-self-center">
           <img src={house} alt="mockup" />
         </div>
       </div>
