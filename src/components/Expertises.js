@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const Expertises = () => {
   return (
-    <div className=" flex flex-col">
+    <div className=" flex flex-col lg:px-24 mb-20">
       <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl self-center pb-10">
         Nos expertises
       </h1>

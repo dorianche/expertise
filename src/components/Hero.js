@@ -4,7 +4,7 @@ import house from "../images/house.webp";
 const Hero = () => {
   return (
     <section class="bg-white mt-40 lg:mt-30 mb-20">
-      <div class="flex justify-between gap-10 flex-col lg:flex-row sm:flex-col xs:flex-col max-w-screen-xl px-10">
+      <div class="flex justify-around gap-10 flex-col lg:flex-row sm:flex-col xs:flex-col max-w-screen-xl px-10">
         <div class=" place-self-center">
           <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
             Votre expert bâtiment certifié
