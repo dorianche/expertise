@@ -32,7 +32,7 @@ const Navbar = () => {
     <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
-          href="https://lc-expert.fr/"
+          href="https://lcexpert.fr/"
           class="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <span class="self-center text-2xl font-semibold whitespace-nowrap font-test dark:text-white">
@@ -86,6 +86,7 @@ const Navbar = () => {
                 to="/"
                 className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
                 aria-current="page"
+                onClick={toggleMenu}
               >
                 Accueil
               </Link>
@@ -93,6 +94,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/cabinet"
+                onClick={toggleMenu}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Notre cabinet
@@ -111,6 +113,7 @@ const Navbar = () => {
                   <Link
                     to="/pathologie"
                     class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-500 hover:text-white"
+                    onClick={toggleMenu}
                   >
                     Pathologie du bâtiment
                   </Link>
@@ -120,6 +123,7 @@ const Navbar = () => {
                   <Link
                     to="/fissures"
                     class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-500 hover:text-white"
+                    onClick={toggleMenu}
                   >
                     Fissures
                   </Link>
@@ -129,6 +133,7 @@ const Navbar = () => {
                   <Link
                     to="/humidite"
                     class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-500 hover:text-white"
+                    onClick={toggleMenu}
                   >
                     Humidité - Dégâts des eaux
                   </Link>
@@ -138,6 +143,7 @@ const Navbar = () => {
                   <Link
                     to="/thermique"
                     class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-500 hover:text-white"
+                    onClick={toggleMenu}
                   >
                     Evaluation thermique
                   </Link>
@@ -147,6 +153,7 @@ const Navbar = () => {
                   <Link
                     to="/analyse"
                     class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-500 hover:text-white"
+                    onClick={toggleMenu}
                   >
                     Analyse de projet avant construction
                   </Link>
@@ -156,6 +163,7 @@ const Navbar = () => {
                   <Link
                     to="/livraison"
                     class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-500 hover:text-white"
+                    onClick={toggleMenu}
                   >
                     Assistance à livraison VEFA
                   </Link>
@@ -165,6 +173,7 @@ const Navbar = () => {
                   <Link
                     to="/reception"
                     class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-500 hover:text-white"
+                    onClick={toggleMenu}
                   >
                     Assistance à réception CCMI
                   </Link>
@@ -175,6 +184,7 @@ const Navbar = () => {
               <Link
                 to="/contact"
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                onClick={toggleMenu}
               >
                 Contact
               </Link>

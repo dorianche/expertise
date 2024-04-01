@@ -27,7 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <section class="bg-white pt-7 ">
+    <section class="bg-white pt-7 mt-10 ">
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 ">
           Nous contacter
