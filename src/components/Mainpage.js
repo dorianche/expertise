@@ -13,7 +13,6 @@ const Mainpage = () => {
       <Expertises />
       <FFEB />
       <Contact />
-      <Footer />
     </div>
   );
 };

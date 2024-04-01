@@ -1,22 +1,26 @@
 import React from "react";
 import expert from "../images/expert.jpg";
 import { Link } from "react-router-dom";
-/* eslint-disable */
-const Cabinet = () => {
+
+const Pathologie = () => {
   return (
     <section class="bg-white mt-24 ">
       <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-        <img class="w-full " src={expert} alt="dashboard image" />
+        <img
+          class="w-full "
+          src="https://plus.unsplash.com/premium_photo-1683141558265-d0449dbf26fa?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="dashboard image"
+        />
 
         <div class="mt-4 md:mt-0">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">
-            LC Expert, un expert certifié OFIB avec 25 ans d'expérience
+            LC Expert, un expert pour analyser vos projets avant construction
           </h2>
           <p class="mb-6 font-light text-gray-500 md:text-lg pt-7 ">
-            LC Expert vous assiste pour tous vos projets en bâtiment, vos
-            sinistres et désordres de toute nature. A toute étape de votre
-            projet, nous vous accompagnons pour vous aider à prendre les bonnes
-            décisions et pour défendre vos intérêts.
+            L'analyse de projet avant construction, notamment pour les Contrats
+            de Construction de Maisons Individuelles (CCMI) et les extensions,
+            est cruciale pour assurer la viabilité et l'adaptation du projet au
+            terrain. Cette évaluation préliminaire peut comprendre par exemple :
           </p>
 
           <ul class="max-w-md space-y-1 text-gray-500 list-inside ">
@@ -30,7 +34,8 @@ const Cabinet = () => {
               >
                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
               </svg>
-              Membre de la FFEB
+              Inspection visuelle du terrain (eau, pente, limites, voisinage,
+              orientation).
             </li>
             <li class="flex items-center">
               <svg
@@ -42,7 +47,7 @@ const Cabinet = () => {
               >
                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
               </svg>
-              Certifié OFIB
+              Examen de la Notice Descriptive
             </li>
             <li class="flex items-center">
               <svg
@@ -54,19 +59,7 @@ const Cabinet = () => {
               >
                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
               </svg>
-              Se déplace dans les départements 17, 33, 79 et 16
-            </li>
-            <li class="flex items-center">
-              <svg
-                class="w-3.5 h-3.5 me-2 text-green-500  flex-shrink-0"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-              </svg>
-              Contentieux et sinistralité
+              Vérification de l'accessibilité et des réseaux de raccordement.
             </li>
           </ul>
 
@@ -94,4 +87,4 @@ const Cabinet = () => {
   );
 };
 
-export default Cabinet;
+export default Pathologie;

@@ -1,5 +1,6 @@
 import React from "react";
 import house from "../images/house.webp";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -10,11 +11,11 @@ const Hero = () => {
             Votre expert bâtiment certifié
           </h1>
           <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
-            Membre de la FFEB, LC Expert vous accompagne dans vos projets depuis
-            25 ans dans les départements 17, 33, 79 et 16.
+            Certifié par l'OFIB, LC Expert vous accompagne dans vos projets
+            depuis 25 ans dans les départements 17, 33, 79 et 16.
           </p>
-          <a
-            href="#"
+          <Link
+            to="/cabinet"
             class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-primary-300 "
           >
             En savoir plus
@@ -30,13 +31,13 @@ const Hero = () => {
                 clip-rule="evenodd"
               ></path>
             </svg>
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/contact"
             class="inline-flex px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100   "
           >
             Nous contacter
-          </a>
+          </Link>
         </div>
         <div class=" lg:mt-0 lg:w-1/2 place-self-center">
           <img src={house} alt="mockup" />
