@@ -55,7 +55,7 @@ const Footer = () => {
             <a href="/" class="hover:underline">
               LC Expert
             </a>
-            . Site réalisé par Dorian Chenard
+            . Site réalisé par DC
           </span>
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a href="/" class="text-gray-500 hover:text-gray-900">
