@@ -16,7 +16,7 @@ const Hero = () => {
           </p>
           <Link
             to="/cabinet"
-            class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-primary-300 "
+            class="inline-flex items-center justify-center px-5 py-3 mr-3 mb-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-primary-300 "
           >
             En savoir plus
             <svg
@@ -34,7 +34,7 @@ const Hero = () => {
           </Link>
           <Link
             to="/contact"
-            class="inline-flex px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100   "
+            class="inline-flex px-5 py-3 mr-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100   "
           >
             Nous contacter
           </Link>
