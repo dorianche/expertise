@@ -22,8 +22,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const fixedEmail = "lc@lcexpert.fr"; // L'adresse à laquelle tous les mails seront envoyés
+    const emailBody = `Email de l'expéditeur: ${formData.email}\nTéléphone: ${formData.tel}\nMessage: ${formData.message}`;
+    const mailtoLink = `mailto:${fixedEmail}?subject=${encodeURIComponent(
+      formData.subject
+    )}&body=${encodeURIComponent(emailBody)}`;
 
-    window.location.href = mailtoLink; // Cela va ouvrir l'application de mail par défaut de l'utilisateur avec les champs pré-remplis
+    window.location.href = mailtoLink;
   };
 
   return (
