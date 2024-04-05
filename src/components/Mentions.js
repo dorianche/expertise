@@ -8,25 +8,19 @@ const Mentions = () => {
       </header>
       <section>
         <h2>Éditeur du site</h2>
-        <p>Nom de l'entreprise : [Nom de l'entreprise]</p>
-        <p>Forme juridique : [SARL, SAS, SA, etc.]</p>
-        <p>Adresse : [Adresse complète]</p>
-        <p>Téléphone : [Numéro de téléphone]</p>
-        <p>Email : [Adresse email]</p>
-        <p>RCS : [Numéro RCS]</p>
-        <p>TVA intracommunautaire : [Numéro de TVA]</p>
-      </section>
+        <p>Nom de l'entreprise : Lcexpert </p>
+        <p>Forme juridique : Profession libérale </p>
+        <p>Adresse : NA </p>
 
-      <section>
-        <h2>Directeur de la publication</h2>
-        <p>[Nom du directeur de publication]</p>
+        <p>Email : l.chenard(arobase)lcexpert.fr</p>
+        <p>RCS : NA </p>
+        <p>TVA intracommunautaire : NA </p>
       </section>
 
       <section>
         <h2>Hébergement du site</h2>
-        <p>Nom de l'hébergeur : [Nom de l'hébergeur]</p>
-        <p>Adresse : [Adresse de l'hébergeur]</p>
-        <p>Téléphone : [Numéro de téléphone de l'hébergeur]</p>
+        <p>Nom de l'hébergeur : Vercel</p>
+        <p>Adresse : Vercel.com </p>
       </section>
 
       <section>

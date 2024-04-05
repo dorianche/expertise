@@ -8,7 +8,7 @@ const Footer = () => {
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a href="/" class="flex items-center">
-              <span class="self-center text-2xl font-semibold whitespace-nowrap ">
+              <span class="self-center text-2xl font-semibold font-test whitespace-nowrap ">
                 LC Expert
               </span>
             </a>
@@ -19,9 +19,9 @@ const Footer = () => {
                 Coordonnées
               </h2>
               <ul class="text-gray-600 dark:text-gray-400">
-                <li class="mb-4">30 rue de Bourgogne</li>
-                <li class="mb-4">17470 AULNAY</li>
-                <li>06 54 34 23 18</li>
+                <li class="mb-4">30 rue de Bourgogne 17470 Aulnay</li>
+                <li class="mb-4">l.chenard(arobase)lcexpert.fr</li>
+                <li>06 70 20 66 28</li>
               </ul>
             </div>
             <div>
